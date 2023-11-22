@@ -1,3 +1,42 @@
+.articleImage img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.article {
+  border: 1px solid black;
+  padding: 2rem;
+  width: 20%;
+  cursor: pointer;
+}
+
+.footer {
+  display: grid;
+  height: 10rem;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: rgb(63, 63, 63);
+  color: bisque;
+  grid-template-areas: "foot1  foot2  foot3  ";
+}
+.footer .foot1 {
+  grid-area: foot1;
+  border: 1px solid white;
+}
+.footer .foot2 {
+  grid-area: foot2;
+  border: 1px solid white;
+}
+.footer .foot3 {
+  grid-area: foot3;
+  border: 1px solid white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
 }
@@ -23,6 +62,15 @@ html, body {
 
 body {
   background-color: rgb(13, 255, 134);
+}
+
+.test {
+  border: solid 1px red;
+}
+
+section {
+  width: 80%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=index.css.map */

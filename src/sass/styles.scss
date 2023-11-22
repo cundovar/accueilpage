@@ -1,3 +1,9 @@
+@import './article/article.scss';
+@import './footer.scss';
+
+* {
+    box-sizing: border-box;
+  }
 
 html,body{
     height: 100%;
@@ -26,4 +32,13 @@ border: 1px solid rgb(247, 24, 24);
 }
 body{
     background-color: rgb(13, 255, 134);
+}
+
+.test{
+    border: solid 1px red;
+}
+
+section{
+      width: 80%;
+    margin: auto;
 }

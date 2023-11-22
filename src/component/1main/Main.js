@@ -1,12 +1,12 @@
 import React from "react"; 
 import Main2 from "./Main2.js"
-
+import Main3 from "./Main3.js";
 
 const Main=()=>{
     return(
-        <>
-        <section className="container-fluid row ">
-            <div className="col-6 d-flex justify-content-center align-items-center">
+        <div className="container-fluid  ">
+        <section className="d-flex relative col-12">
+            <div className="col-6 ">
 
                 <div className="col-6">
                     <h1>Nouvelle génération digital</h1>
@@ -24,16 +24,20 @@ const Main=()=>{
 
 
             </div>
-            <div className="col-6 position-relative">
+            <div className="col-6 position-absolute top-0 start-50 translate-middle">
+            <div className=" position-relative">
 
         <img className="position-absolute" src="/images/image-mockups.png"/>
          <img src="/images/bg-intro-desktop.svg"/>
          
             </div>
 
+            </div>
+
         </section>
         <Main2/>
-        </>
+        <Main3/>
+        </div>
     )
 }
 

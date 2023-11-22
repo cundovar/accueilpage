@@ -1,0 +1,25 @@
+.footer{
+    display: grid;
+    height: 10rem;
+    width: 80%;
+    margin: auto;
+    // grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 1fr 2fr 1fr ;
+    background-color: rgb(63, 63, 63);
+    color: bisque;
+    grid-template-areas: "foot1  foot2  foot3  ";
+   
+    .foot1{
+        grid-area: foot1;
+        border: 1px solid white;
+    }
+    .foot2{
+        grid-area: foot2;
+        border: 1px solid white;
+    }
+    .foot3{
+        grid-area: foot3;
+        border: 1px solid white;
+    }
+    
+}

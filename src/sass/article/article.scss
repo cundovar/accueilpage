@@ -1,0 +1,17 @@
+.articleImage{
+ 
+
+    img{
+       width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+.article{
+    border: 1px solid black;
+       padding: 2rem;
+    width: 20%;
+    cursor: pointer;
+}
+  
