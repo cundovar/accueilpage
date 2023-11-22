@@ -6,7 +6,12 @@ const Footer=()=>{
 
     return(
         <>
-        
+     <div>fsffs</div>
+     <div>fsffs</div>
+     <div>fsffs</div>
+     <div>fsffs</div>
+     <div>fsffs</div>
+     <div>fsffs</div>
         </>
 
     )
