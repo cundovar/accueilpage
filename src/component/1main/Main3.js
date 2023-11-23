@@ -10,11 +10,11 @@ const Main3=()=>{
 
 
     return(
-        <section>
+        <section className="bg-section-3">
 
-            <div>
-                <h1>Deniers Articles</h1>
-                <div className="d-flex ">
+            <div className="section__content">
+                <h1 className="section__content__text">Deniers Articles</h1>
+                <div className="d-flex justify-content-center align-items-center ">
 
                     {data.map((item,index)=>(
                         <div className="article"  key={index}>

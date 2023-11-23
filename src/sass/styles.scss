@@ -1,10 +1,13 @@
 @import './article/article.scss';
 @import './common/button/button.scss';
+@import './common/bg.scss';
 @import './footer.scss';
 @import './header.scss';
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 
 html,body{
@@ -19,8 +22,8 @@ min-height: 100%;
 .g{
 min-height: 100%;
 padding-bottom: 10rem;
+position: relative;
 
-background-color: rgb(243, 243, 25);
 
 }
 
@@ -30,20 +33,42 @@ position: absolute;
 bottom: 0;
 right: 0;
 left: 0;
-border: 1px solid rgb(247, 24, 24);
-}
-body{
-    background-color: rgb(13, 255, 134);
+// border: 1px solid rgb(247, 24, 24);
 }
 
-.test{
-    border: solid 1px red;
+
+
+.ff{
+    // background-color: rgb(247, 0, 255);
+    img{
+         width: 100%;
+        object-fit: cover;
+    }
 }
 .main{
-    width:80%;
-    margin: auto;
+    width:100%;
+ 
+    padding-top: 5rem;
+   
+   
 }
+
 section{
-      
-    border: 3px red solid;
+      width: 100%;
+    // border: 3px rgb(88, 1, 228) solid;
+   margin-top: 0 !important;
+   margin-bottom: 0 !important;
+    min-height: 30rem;
 }
+.section__content{
+ 
+ width: 80%;
+ margin: auto;
+//  border: 2px solid blueviolet;
+}
+
+
+
+
+
+

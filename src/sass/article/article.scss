@@ -9,9 +9,31 @@
 }
 
 .article{
-    border: 1px solid black;
+    border: 1px solid rgb(157, 179, 37);
        padding: 2rem;
     width: 20%;
+    height: 20rem;
     cursor: pointer;
+    margin: .5rem;
+
 }
-  
+.img2{
+ bottom: -5rem;
+}
+.img1{
+    top: -15rem;
+    right: -10rem;
+}
+.content1{
+    min-height: 20rem;
+}
+
+// main2
+
+.section__content__text{
+    padding: 3rem 0rem 3rem 0rem;
+
+    p{
+        margin-top: 3rem;
+    }
+}
