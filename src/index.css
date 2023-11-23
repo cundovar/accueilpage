@@ -11,13 +11,16 @@
 }
 
 .footer {
-  display: grid;
-  height: 10rem;
-  width: 80%;
-  margin: auto;
-  grid-template-columns: 1fr 2fr 1fr;
+  width: 100%;
   background-color: rgb(63, 63, 63);
   color: bisque;
+}
+.footer .footer__content {
+  display: grid;
+  height: 10rem;
+  width: 79%;
+  margin: auto;
+  grid-template-columns: 1fr 2fr 1fr;
   grid-template-areas: "foot1  foot2  foot3  ";
 }
 .footer .foot1 {
@@ -31,6 +34,19 @@
 .footer .foot3 {
   grid-area: foot3;
   border: 1px solid white;
+}
+
+.nav__contain {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+}
+
+* {
+  border: 1px green solid;
 }
 
 * {
@@ -68,9 +84,13 @@ body {
   border: solid 1px red;
 }
 
-section {
+.main {
   width: 80%;
   margin: auto;
+}
+
+section {
+  border: 3px red solid;
 }
 
 /*# sourceMappingURL=index.css.map */

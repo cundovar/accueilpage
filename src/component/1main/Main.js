@@ -4,7 +4,7 @@ import Main3 from "./Main3.js";
 
 const Main=()=>{
     return(
-        <div className="container-fluid  ">
+        <main className="container-fluid main  ">
         <section className="d-flex relative col-12">
             <div className="col-6 ">
 
@@ -37,7 +37,7 @@ const Main=()=>{
         </section>
         <Main2/>
         <Main3/>
-        </div>
+        </main>
     )
 }
 
