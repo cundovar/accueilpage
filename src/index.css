@@ -1,24 +1,14 @@
 .articleImage img {
   width: 100%;
+  height: 10rem;
   object-fit: cover;
 }
 
 .article {
-  border: 1px solid rgb(157, 179, 37);
   padding: 2rem;
   width: 20%;
-  height: 20rem;
   cursor: pointer;
   margin: 0.5rem;
-}
-
-.img2 {
-  bottom: -5rem;
-}
-
-.img1 {
-  top: -15rem;
-  right: -10rem;
 }
 
 .content1 {
@@ -32,42 +22,85 @@
   margin-top: 3rem;
 }
 
+.articleMain3__p {
+  font-size: 15px;
+}
+
+.button {
+  color: white;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 25px;
+  border: none;
+  width: 12rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #2BB7DA, #31D35C);
+}
+
 .bg-section-1 {
-  background-color: rgb(236, 243, 243);
+  background-color: hsl(0, 0%, 98%);
 }
 
 .bg-section-2 {
-  background-color: rgb(223, 228, 228);
+  background-color: hsl(220, 16%, 96%);
 }
 
 .bg-section-3 {
-  background-color: rgb(246, 248, 248);
+  background-color: hsl(0, 0%, 98%);
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.articleMain3 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+footer {
+  background-color: hsl(233, 26%, 24%);
 }
 
 .footer {
   width: 100%;
-  background-color: rgb(63, 63, 63);
-  color: bisque;
+  margin-top: 2rem;
+  color: rgb(255, 255, 255);
 }
 .footer .footer__content {
   display: grid;
   height: 10rem;
-  width: 79%;
+  width: 80%;
   margin: auto;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-areas: "foot1  foot2  foot3  ";
 }
 .footer .foot1 {
   grid-area: foot1;
-  border: 1px solid white;
+  flex-direction: column;
+  display: flex;
+  min-height: 100%;
+  justify-content: space-around;
+}
+.footer .foot1 .foot1__icon__social img {
+  margin-left: 0.5rem;
 }
 .footer .foot2 {
   grid-area: foot2;
-  border: 1px solid white;
+  display: flex;
+  align-items: center;
 }
 .footer .foot3 {
   grid-area: foot3;
-  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer .foot3 .foot3__button {
+  display: flex;
+  justify-content: center;
 }
 
 .nav__contain {
@@ -75,18 +108,111 @@
   margin: auto;
 }
 
+.nav__contain__contain {
+  padding-left: 0 !important;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "header1 header2 header3";
+  width: 100%;
+}
+
 .header {
   width: 100%;
 }
 
+.liste {
+  margin: auto;
+}
+
+.header1 {
+  grid-area: header1;
+  padding-left: 0 !important;
+}
+
+.header2 {
+  grid-area: header2;
+}
+
+.header3 {
+  grid-area: header3;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .img2 {
+    bottom: -5rem;
+    right: -11rem;
+  }
+  .img1 {
+    top: -5rem;
+    right: -5rem;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .img2 {
+    width: 50rem;
+    bottom: -3rem;
+    right: -3rem;
+  }
+  .img1 {
+    width: 40rem;
+    top: -10rem;
+    right: -5rem;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .main {
+    margin-top: 0rem;
+    overflow: hidden;
+  }
+  .main section {
+    min-height: 30rem;
+  }
+  .nav__contain, .footer__content, .section__content {
+    min-width: 90%;
+  }
+  .article {
+    padding: 0.5rem;
+  }
+  .ggg {
+    border: 1px solid green;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Public Sans", sans-serif;
+  text-align: justify;
+  font-weight: 300;
 }
 
 html, body {
   height: 100%;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h4, h5 {
+  font-weight: 500;
+}
+
+p {
+  text-align: justify;
 }
 
 #root {
@@ -94,13 +220,13 @@ html, body {
   position: relative;
 }
 
-.g {
+.principal {
   min-height: 100%;
   padding-bottom: 10rem;
   position: relative;
 }
 
-.h {
+.bas {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -115,13 +241,11 @@ html, body {
 .main {
   width: 100%;
   padding-top: 5rem;
+  overflow: hidden;
 }
 
 section {
-  width: 100%;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  min-height: 30rem;
+  min-height: 45rem;
 }
 
 .section__content {

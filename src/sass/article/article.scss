@@ -3,27 +3,22 @@
 
     img{
        width: 100%;
+       height: 10rem;
         object-fit: cover;
     }
 
 }
 
 .article{
-    border: 1px solid rgb(157, 179, 37);
+    // border: 1px solid rgb(157, 179, 37);
        padding: 2rem;
     width: 20%;
-    height: 20rem;
+    // height: 20rem;:
     cursor: pointer;
     margin: .5rem;
 
 }
-.img2{
- bottom: -5rem;
-}
-.img1{
-    top: -15rem;
-    right: -10rem;
-}
+
 .content1{
     min-height: 20rem;
 }
@@ -36,4 +31,11 @@
     p{
         margin-top: 3rem;
     }
+}
+
+// main3
+
+.articleMain3__p{
+
+    font-size: 15px
 }

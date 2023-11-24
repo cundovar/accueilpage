@@ -1,14 +1,15 @@
 import React from "react";
 import Main2 from "./Main2.js";
 import Main3 from "./Main3.js";
+import Button from "../common/greenButton.js";
 
 const Main = () => {
   return (
-    <main className="container-fluid main  position-relative  ">
-      <section className="d-flex   content2 position-relative bg-section-1 ">
+    <main className=" main  position-relative  ">
+      <section className="d-flex   position-relative bg-section-1 ">
         <div className="section__content  col-6 d-flex justify-content-center align-items-center ">
           <div className="col-6 d-flex flex-column justify-content-center ">
-            <div className="col-6"> 
+            <div className="col-lg-9"> 
             <h1>Nouvelle génération digital</h1>
             <p className="text-wrapper">
               Lorem ipsum odor amet, consectetuer adipiscing elit. Primis eros
@@ -17,7 +18,7 @@ const Main = () => {
               euismod placerat.
             </p>
 
-            <button>skdfgsbgk</button>
+           <Button/>
 
             </div>
           </div>

@@ -1,26 +1,27 @@
 import React from "react";
+import Button from "../common/greenButton";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__content">
         <div>
-          <div className="">
-            <div className="logo">
+          <div className="foot1">
+            <div className="foot1__logo">
               <img src="/images/logo.svg" />
+            </div>
 
-              <div className="d-flex foot1 ">
+              <div className="d-flex foot1__icon__social ">
                 <img src="./images/icon-facebook.svg" alt="icon" />
                 <img src="/images/icon-pinterest.svg" alt="icon" />
                 <img src="/images/icon-twitter.svg" alt="icon" />
                 <img src="/images/icon-youtube.svg" alt="icon" />
                 <img src="/images/icon-instagram.svg" alt="icon" />
               </div>
-            </div>
           </div>
         </div>
         <div className="foot2 d-flex">
-          <div>
+          <div className="me-5">
             <ul>
               <li>About us</li>
               <li>Contact</li>
@@ -36,8 +37,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="foot3">
+          <div  className="foot3__button">
+
+            <Button />
+          </div>
           <div>
-            <button>truc a dire</button>
             <p>@gergehrhrh tout droit</p>
           </div>
         </div>

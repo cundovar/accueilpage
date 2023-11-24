@@ -8,7 +8,7 @@ const Main2 = () => {
     <section className="bg-section-2 ">
       <div className="section__content">
         <div className="section__content__text">
-          <h1 className="h1">Pourquoi choisir Easybank? </h1>
+          <h1 >Pourquoi choisir Easybank? </h1>
           <p>
            
             Lorem ipsum odor amet, consectetuer adipiscing elit. Primis eros
@@ -17,14 +17,14 @@ const Main2 = () => {
         </div>
 
         <div>
-          <article className=" d-flex justify-content-center align-items-center">
+          <article className=" d-flex justify-content-around ">
             {data.map((item, index) => (
-              <div key={index} className=" test article">
+              <div key={index} className="  article">
                 <div className="  ">
-                  <div>
+                  <div className="mb-5 ">
                     <img src={item.logo} alt={item.titre} />{" "}
                   </div>
-                  <h5>{item.titre}</h5>
+                  <h4 className="mb-5">{item.titre}</h4>
                   <div>{item.text}</div>
                 </div>
               </div>
