@@ -107,7 +107,7 @@ footer {
   justify-content: space-around;
 }
 .footer .foot1 .foot1__icon__social img {
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .footer .foot2 {
   grid-area: foot2;
@@ -116,7 +116,6 @@ footer {
   padding-left: 0 !important;
 }
 .footer .foot2 ul li {
-  width: 100%;
   margin-left: 0 !important;
 }
 .footer .foot3 {
@@ -128,10 +127,6 @@ footer {
 .footer .foot3 .foot3__button {
   display: flex;
   justify-content: center;
-}
-
-* {
-  border: 1px solid blueviolet;
 }
 
 .nav__contain {
@@ -169,10 +164,15 @@ footer {
   margin-left: 0 !important;
   padding-left: 0 !important;
   display: flex;
-  justify-content: center;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.header3 .header3__button {
+  margin: auto;
+  margin-left: 1rem !important;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1722px) {
   .img2 {
     bottom: -5rem;
     right: -11rem;
@@ -182,7 +182,7 @@ footer {
     right: -5rem;
   }
 }
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1721px) {
   .img2 {
     width: 50rem;
     bottom: -3rem;
@@ -194,15 +194,27 @@ footer {
     right: -5rem;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1720px) {
+  .img1-mobile {
+    width: 40rem;
+    top: -10rem;
+    right: 0;
+  }
+  .img2 {
+    right: -2rem;
+    top: -10rem;
+  }
+}
+@media screen and (max-width: 999px) {
   .img1-mobile {
     width: 25rem;
     top: -10rem;
     left: 10%;
   }
   .img2-mobile {
-    right: -2rem;
-    top: -2rem;
+    right: -1rem;
+    top: -1rem;
+    width: 20rem;
   }
 }
 @media screen and (max-width: 1439px) {

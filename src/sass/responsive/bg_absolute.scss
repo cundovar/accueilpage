@@ -1,4 +1,4 @@
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1722px) {
 
     .img2{
         bottom: -5rem;
@@ -12,13 +12,14 @@
     }
     
     
-    @media screen and (max-width:1439px ){
+    @media screen and (max-width:1721px ){
         
         
         .img2{
             width: 50rem;
             bottom: -3rem;
             right: -3rem
+            
         }
         .img1{
            width: 40rem;
@@ -30,14 +31,29 @@
 
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1720px)  {
+    .img1-mobile{
+        width: 40rem;
+        top: -10rem;
+       right: 0;
+
+    }
+    .img2{
+        right: -2rem;
+        top: -10rem;
+      
+    }
+}
+
+@media screen and (max-width:999px) {
     .img1-mobile{
         width: 25rem;
         top: -10rem;
         left: 10%;
     }
     .img2-mobile{
-        right: -2rem;
-        top: -2rem;
+        right: -1rem;
+        top: -1rem;
+        width: 20rem;
     }
 }

@@ -40,7 +40,12 @@ margin: auto;
     // border: rgb(248, 119, 209) 5px solid;
     margin-left: 0 !important;
     padding-left: 0 !important;
-    
+  
     display: flex;
-    justify-content: center;
+    align-items: center  !important;
+    justify-content: center !important;
+    .header3__button{
+        margin: auto;
+        margin-left: 1rem !important;
+    }
 }

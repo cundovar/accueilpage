@@ -13,7 +13,7 @@ const Main3=()=>{
         <section className="bg-section-3 ">
 
             <div className="section__content">
-                <h1 className="section__content__text text-center">Deniers Articles</h1>
+                <h1 className="section__content__text text-center text-md-start">Deniers Articles</h1>
                 <div className=" d-flex  flex-md-row justify-content-around flex-column  ggg pb-3">
 
                     {data.map((item,index)=>(

@@ -42,7 +42,7 @@ width: 100%;
         .foot1__icon__social{
            img{
 
-              margin-left: .5rem;
+              margin-right: .5rem;
            }
 
    
@@ -51,12 +51,12 @@ width: 100%;
     }
     .foot2{
         grid-area: foot2;
-        
+
         ul {
             padding-left: 0 !important;
 
             li{
-                width: 100%;
+              
                 margin-left: 0 !important;
             }
         }
@@ -83,6 +83,3 @@ width: 100%;
     
 }
 
-*{
-    border: 1px solid blueviolet;
-}
