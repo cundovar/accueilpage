@@ -47,6 +47,9 @@ position: relative;
 min-height: 100%;
 padding-bottom: 10rem;
 position: relative;
+@media screen and (max-width:900px) {
+    padding-bottom:25rem ;
+}
 
 
 
@@ -88,6 +91,11 @@ section{
  width: 80%;
  margin: auto;
 //  border: 2px solid blueviolet;
+}
+
+.log{
+    color: aliceblue;
+    background-color: azure;
 }
 
 

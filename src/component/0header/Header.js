@@ -12,8 +12,8 @@ const Header = () => {
               <img src="/images/logo.svg" />
             </a>
 
-            <div className="header2 d-flex  liste">
-              <ul className="navbar-nav  mb-2 liste mb-lg-0 ">
+            <div className="header2 d-flex  liste mb-2 liste mb-lg-0 d-none d-lg-block d-xl-block">
+              <ul className="navbar-nav  ">
                 <li class="nav-item  ">
                   <a class="nav-link" aria-current="page" href="#">
                     Accueil
@@ -42,9 +42,10 @@ const Header = () => {
               </ul>
             </div>
 
-            <div className="header3">
+            <div className="header3 mb-lg-0 d-none d-lg-block d-xl-block">
              <Button className="header3_button" />
             </div>
+            
 
           </div>
         </nav>

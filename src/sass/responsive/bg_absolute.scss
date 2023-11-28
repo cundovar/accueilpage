@@ -27,4 +27,17 @@
        }
 
 
+
+}
+
+@media screen and (max-width:900px) {
+    .img1-mobile{
+        width: 25rem;
+        top: -10rem;
+        left: 10%;
+    }
+    .img2-mobile{
+        right: -2rem;
+        top: -2rem;
+    }
 }
